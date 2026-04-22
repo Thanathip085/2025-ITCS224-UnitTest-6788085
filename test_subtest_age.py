@@ -17,6 +17,6 @@ class TestSubtestAge(unittest.TestCase):
         for age in range(66, 151):
             with self.subTest(age=age):
                 self.assertEqual(categorize_by_age(age), "Golden age")
-
+  
 if __name__ == "__main__":
     unittest.main(verbosity=2)
